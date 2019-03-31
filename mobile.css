@@ -1,0 +1,101 @@
+/*Positioning the Hamburger*/
+#ham{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    display: none;
+}
+/*Menu*/
+#menu {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-bottom: 35px;
+	font-family: 'Cutive Mono', monospace;
+	text-align: center;
+	font-size: 3em;
+	width: 84%;
+	position: relative;
+	left: 8%;
+}
+#menu>span {
+	margin-right: 25px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+#menu>span:first-of-type {
+	margin-left: 0px;
+}
+#menu>span:last-of-type {
+	margin-right: 0px;
+}
+/*mi stands for Menu Item*/
+.mi {
+	text-decoration: none;
+	color: black;
+}
+.mi:hover {
+	color: red;
+}
+.mi:active {
+	color: orange;
+}
+
+/*Main, all pages*/
+body {
+	font-family: 'Yantramanav', sans-serif;
+	width: 100%;
+}
+h6,h2,h3,h4,h5,h1:not(.rmcTitle) {
+	font-family: 'Share Tech Mono', monospace;
+}
+h1:not(.rmcTitle):not(.sTitle) {
+	margin-bottom: 0px;
+}
+a {
+	color: green;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: orange;
+}
+#pageContent {
+	width: 94%;
+	position: relative;
+	left: 3%;
+}
+iframe {
+	float: right;
+	margin-left: 10px;
+}
+}
+.sTitle {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.disclaimer {
+	text-align: center;
+}
+
+/*Menu, top*/
+.rmcTitle {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*Ref page*/
+li{
+	margin-bottom: 0.8em;
+}
+/*Moving the parody stuff four 4x4*/
+.move{
+	position: relative;
+	top: 100px;
+}
